@@ -1,0 +1,4 @@
+version_control: github
+src_repo: aio-libs/aiosmtpd
+tag_prefix: "^"
+separator: "."
