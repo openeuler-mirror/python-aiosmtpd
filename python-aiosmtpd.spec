@@ -1,6 +1,6 @@
 %global _empty_manifest_terminate_build 0
 Name:       python-aiosmtpd
-Version:    1.2.2
+Version:    1.4.2
 Release:    1
 Summary:    aiosmtpd - asyncio based SMTP server
 License:    Apache 2.0
@@ -72,5 +72,8 @@ mv %{buildroot}/doclist.lst .
 %{_pkgdocdir}
 
 %changelog
+* Mon Apr 25 2022 hkgy <kaguyahatu@outlook.com> - 1.4.2-1
+- Upgrade version to 1.4.2
+
 * Thu Dec 17 2020 Python_Bot <Python_Bot@openeuler.org>
 - Package Spec generated
